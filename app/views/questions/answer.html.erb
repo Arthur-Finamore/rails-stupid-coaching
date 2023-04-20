@@ -1,0 +1,19 @@
+<div class="container">
+  <h1>Stupid Coaching</h1>
+
+  <div class="callout">
+    <h4> <%= params[:question] %></h4>
+    <h4><em>-You</em></h4>
+  </div>
+
+  <div class="callout a">
+    <h4><%= @answer %></h4>
+    <h4><em>-Your Coach</em></h4>
+
+  </div>
+
+  <div >
+    <%= link_to "Ask a new question", ask_path %>
+  </div>
+
+</div>
